@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/home">
+
+    <fragment
+        android:id="@+id/home"
+        android:name="com.agray427.rewardsthatwork.fragment.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/task_list"
+        android:name="com.agray427.rewardsthatwork.fragment.task.TaskListFragment"
+        android:label="@string/title_task_list"
+        tools:layout="@layout/fragment_task_reward_list">
+        <action
+            android:id="@+id/action_select"
+            app:destination="@id/task_data" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/task_data"
+        android:name="com.agray427.rewardsthatwork.fragment.task.TaskDataFragment"
+        android:label="@string/title_task_data"
+        tools:layout="@layout/fragment_task_data" >
+        <argument
+            android:name="taskId"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/reward_list"
+        android:name="com.agray427.rewardsthatwork.fragment.reward.RewardListFragment"
+        android:label="@string/title_reward_list"
+        tools:layout="@layout/fragment_reward_list">
+        <action
+            android:id="@+id/action_select"
+            app:destination="@id/reward_data" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/reward_data"
+        android:name="com.agray427.rewardsthatwork.fragment.reward.RewardDataFragment"
+        android:label="@string/title_reward_data"
+        tools:layout="@layout/fragment_reward_data" >
+        <argument
+            android:name="rewardId"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/user_list"
+        android:name="com.agray427.rewardsthatwork.fragment.user.UserListFragment"
+        android:label="@string/title_user_list"
+        tools:layout="@layout/fragment_user_list" >
+        <action
+            android:id="@+id/action_select"
+            app:destination="@id/user_profile" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/user_profile"
+        android:name="com.agray427.rewardsthatwork.fragment.user.UserProfileFragment"
+        android:label="@string/title_user_profile"
+        tools:layout="@layout/fragment_user_profile" >
+        <argument
+            android:name="userId"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/user_data"
+        android:name="com.agray427.rewardsthatwork.fragment.user.UserDataFragment"
+        android:label="@string/title_user_data"
+        tools:layout="@layout/fragment_user_data" />
+</navigation>

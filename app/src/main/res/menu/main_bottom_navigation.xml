@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/home"
+        android:icon="@drawable/ic_home"
+        android:title="@string/title_home"/>
+
+    <item android:id="@+id/reward_list"
+        android:icon="@drawable/ic_rewards"
+        android:title="@string/title_reward_list"/>
+
+    <item
+        android:id="@+id/task_list"
+        android:icon="@drawable/ic_tasks"
+        android:title="@string/title_task_list" />
+
+    <item android:id="@+id/user_list"
+        android:icon="@drawable/ic_users"
+        android:title="@string/title_user_list"/>
+</menu>

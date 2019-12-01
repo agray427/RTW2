@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/group_select"
+    app:startDestination="@id/group_list">
+
+    <fragment
+        android:id="@+id/group_list"
+        android:name="com.agray427.rewardsthatwork.fragment.groupselect.GroupListFragment"
+        android:label="@string/title_group_list"
+        tools:layout="@layout/fragment_group_list" >
+        <action
+            android:id="@+id/action_join"
+            app:destination="@id/group_join" />
+        <action
+            android:id="@+id/action_select"
+            app:destination="@id/main" />
+    </fragment>
+    <fragment
+        android:id="@+id/group_join"
+        android:name="com.agray427.rewardsthatwork.fragment.groupselect.GroupJoinFragment"
+        android:label="@string/title_group_join"
+        tools:layout="@layout/fragment_group_join" >
+        <action
+            android:id="@+id/action_select"
+            app:destination="@id/main"
+            app:popUpTo="@+id/group_list" />
+    </fragment>
+    <activity
+        android:id="@+id/main"
+        android:name="com.agray427.rewardsthatwork.activity.MainActivity"
+        android:label="@string/title_main"
+        tools:layout="@layout/activity_main" />
+</navigation>

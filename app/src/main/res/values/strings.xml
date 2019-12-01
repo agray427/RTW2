@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Rewards That Work</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_home">Home</string>
+    <string name="title_task_list">Tasks</string>
+    <string name="title_reward_list">Rewards</string>
+    <string name="title_user_list">Users</string>
+    <string name="title_task_data">Task Data</string>
+    <string name="title_reward_data">Reward Data</string>
+    <string name="title_user_profile">User Profile</string>
+    <string name="title_user_data">User Data</string>
+    <string name="hint_email">Email Address (required)</string>
+    <string name="hint_password">Password (required, 6 characters)</string>
+    <string name="button_login">Login</string>
+    <string name="button_register">Register</string>
+    <string name="hint_first_name">First Name (required)</string>
+    <string name="hint_last_name">Last Name (required)</string>
+    <string name="title_group_join">Join Group</string>
+    <string name="title_group_list">Groups</string>
+    <string name="title_login">Login</string>
+    <string name="title_register">Register</string>
+    <string name="title_main">Main</string>
+    <string name="title_auth">Authentication</string>
+    <string name="label_empty_list">No Items...</string>
+    <string name="hint_password_confirm">Confirm Password</string>
+    <string name="title_group_select">Group Select</string>
+</resources>

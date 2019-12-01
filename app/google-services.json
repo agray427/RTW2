@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "535721008740",
+    "firebase_url": "https://agray427-rewards-that-work.firebaseio.com",
+    "project_id": "agray427-rewards-that-work",
+    "storage_bucket": "agray427-rewards-that-work.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:535721008740:android:b246b534f731ad52150971",
+        "android_client_info": {
+          "package_name": "com.agray427.rewardsthatwork"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "535721008740-mvqm5rrppqfmgeoapgq2kg9m6uqalkf0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.agray427.rewardsthatwork",
+            "certificate_hash": "0c9a28831d4e0089031d27d1aa6bc21c34917e5c"
+          }
+        },
+        {
+          "client_id": "535721008740-mr1420llv8a81nuggoa41g8o0lqi5vq0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxFb6F88Mak_WMzb9pDEefvw3NBbCHWnA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "535721008740-mr1420llv8a81nuggoa41g8o0lqi5vq0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
